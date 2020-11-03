@@ -1,0 +1,6 @@
+This code implements a Dynamic Programming table approach to string manipulation.
+
+There are three methods found in main.py
+1. alignStrings() - Takes two input strings and returns a cost matrix S which contains the cost solution to every sub-problem. For example BARE & BAIN would return the min cost to convert BARE to BAIN but also BA to BAIN and BARE to BA and every other sub-problem as well.
+2. extractAlightment() - Given a cost matrix and the two strings used to make the cost matrix it returns the minimum operations done to string 1 to convert it string 2. There are three operations "delete", "insert", and "no-op". This is done by back tracking from the bottom right of the cost matrix and follow the lowest cost operation at each step.
+3. commonSubstrings() - Input string1, a min length of substring L, and list of optimal ops a that convert string1 to string2. Output a list of substrings that match the criteria. This is simple if given the correct input, for every no-op done to the string that means they are the same character so find a series of no-ops that is L long and append that to the list
