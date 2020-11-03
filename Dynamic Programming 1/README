@@ -1,0 +1,9 @@
+Here is a rudimentary dynamic programming example! Dynamic programming is really amazing in my opinion and can be used to solve a lot of problems. 
+
+The process involves completing the smallest possible problem of a scenario, keeping track of that solution and using it to solve a slightly larger problem. Keep doing this until you reach your original problem.
+
+It's similar to recursion but done iteratively and there are pros/cons to both ways.
+
+This program is given a list of points, you cannot select any two consecutive points and you want the max amount of points. It gets the first two values and then finds the max of the first three values. Now it uses that value to find the max of four values.
+
+And so on and so forth until it has gone through the whole list and has the overal max. That gives it O(n) which is an incredibly good algorithm Big-O time
