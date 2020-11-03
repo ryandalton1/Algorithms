@@ -1,0 +1,8 @@
+This code contains an implementation of bubble sort and merge sort.
+
+Both of which are divide and conquer algorithms. It runs tests which both and outputs the number of flips for each, which happens to be about the same in all cases.
+
+Divide and conquer algorithms work in three steps:
+1. Divide - Split the data into smaller pieces
+2. Conquer - Run a function on this smaller piece to accomplish your goal (here, sort)
+3. Combine - Reassemble the data
