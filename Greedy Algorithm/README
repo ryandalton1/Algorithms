@@ -1,0 +1,3 @@
+This is the entry to the idea of defining algorithms in my opinion. The task here is given a distance before needing to refuel and a list of refueling stations determine how many times you must stop and at which stops.
+
+This is done here with a greedy algorithm that will go as far as possible on its current tank of "gas" and refuel at the lost possible option.
