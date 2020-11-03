@@ -1,0 +1,7 @@
+Kruskal's takes a graph and creates a minimum spanning tree which is a tree with the lowest edge weight possible that connects every node.
+
+Written here is code originally coded by Aric Hagberg the modified by Shivendra Agrawal then finilized by me Ryan Dalton. The default code was to create a graph containing the major US cities and the distance between them.
+
+The part I implement is the actual function of Kruskal's which populates a tree with the MST of this graph. Which would be useful for many things, for example if we were constructing one giant highway through the country or a railway.
+
+Follow this map and it will connect all the cities with the least amount of material used.
